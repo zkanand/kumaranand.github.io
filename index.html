@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+     <!-- Link To AOS -->
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+ <!-- Link To AOS ANIMATION -->
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+</head>
+<body>   
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">WELCOME!</a>
+ 
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar" data-aos="fade-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+  
+    <!-- Loading Animation -->
+    <div class='container'>
+     <div class='loader'>
+       <div class='loader--dot'></div>
+       <div class='loader--dot'></div>
+       <div class='loader--dot'></div>
+       <div class='loader--dot'></div>
+       <div class='loader--dot'></div>
+       <div class='loader--dot'></div>
+       <div class='loader--text'></div>
+     </div>
+   </div>
+   <link rel="stylesheet" href="Loading Animation/style.css">
+   <script src="Loading Animation/script.js"></script>
+  <!-- Home -->
+<section class="home" id="home" data-aos="fade-right">
+  <div class="social">
+        <a href="https://www.linkedin.com/in/kumar-anand" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/zkanand" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://auth.geeksforgeeks.org/user/itz_kanand" target="_blank" class="geeksforgeeks-logo"><i class="fa-brands fa-hackerrank"></i></a>
+  </div>
+    <div class="home-img" data-aos="fade-right">
+        <img src="Home.png" alt="">
+    </div>
+    <div class="home-text">
+      <span>Hello, I am</span>
+      <h1>Kumar Anand</h1>
+     <span class="text"></span>
+      <p>Driven by a relentless pursuit of excellence, I am ready to bring your projects to life. Let's collaborate 
+        to create exceptional digital experiences that leave a lasting impact.</p>
+        <span>
+          💬 Let's Connect!
+          </span>
+        <p>Ready to embark on a coding adventure together? Whether it's a new project or a collaboration opportunity,
+         feel free to reach out. Your vision, my code - let's make it happen!</p>
+      <a href="#contact" class="btn">Contact Me</a>
+  </div>
+</section>
+
+    <!-- About -->
+    <section class="about" id="about" data-aos="fade-left">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="about-img">
+                <img src="AnandSingh.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <p>My journey in the world of software development has equipped me with a diverse skill set, allowing me to tackle challenges head-on and deliver high-quality, innovative solutions. Whether it's back-end development, front-end development, or full-stack projects, I thrive on bringing concepts to life through clean code and intuitive design.</p>
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class='bx bxs-user' ></i>
+                        <span>Kumar Anand</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone' ></i>
+                        <span>+91 7250764449</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope' ></i>
+                        <span>kumaranandcse23@gmail.com</span>
+                    </div>
+                </div>
+                <link rel="stylesheet" href="Button Animation/style.css">
+                <script src="Button Animation/script.js"></script>
+
+                    <button type="button"onClick="download" data-dl>
+                      <span class="dl-icon"></span>
+                      <span>RESUME</span>
+                    </button>
+                  </a>
+        </div>
+    </section>
+     <!-- Skills -->
+     <section class="skills" id="skills" data-aos="fade-right">
+      <div class="heading">
+          <h2>Technical Skills</h2>
+      </div>
+      <div class="skills-container">
+          <span>SKILLS AND LANGUAGES</span>
+          <p class="skl sklLine">_________________________</p>
+          <ul>
+            <li><strong>Subjects:</strong> Data Structures (Basic), Design and Analysis of Algorithms (Basic), OS, CN, DBMS, OOPs, Cloud Computing, Mobile Computing.</li>
+            <br>
+            <li><strong>Programming Languages:</strong> CPP, Java, Python (Basic)</li>
+            <br>
+            <li><strong>Frameworks:</strong> Spring Boot</li>
+            <br>
+            <li><strong>Databases:</strong> MySQL</li>
+            <br>
+            <li><strong>Web/Application Servers:</strong> Tomcat</li>
+            <br>
+            <li><strong>Tools:</strong> Postman, Eclipse, Maven, Hibernate</li>
+            <br>
+            <li><strong>Version Control:</strong> GIT</li>
+            <br>
+            <li><strong>Testing:</strong> JUnit5, Mockito (Familiar), Unit Testing</li>
+            <br>
+            <li><strong>Operating Systems:</strong> Windows, Ubuntu</li>
+        </ul>
+      </div>
+    </section>
+    <!-- certifications -->
+    <section class="certifications" id="certifications" data-aos="fade-left">
+        <div class="heading">
+            <h2>Certifications</h2>
+            <span>My Certifications</span>
+        </div>
+        <div class="certifications-content">
+            <!-- Box 1 -->
+            <div class="certifications-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Data Analyst</h3>
+                <h5>-By Centum Learning</h5>
+                <a href="https://drive.google.com/file/d/1k59q3EOAXPPSGeDMoqHVO8QD1mUAmi4i/view?usp=drive_link">Click To See..</a>
+            </div>
+            <!-- Box 2 -->
+            <div class="certifications-box">
+                <i class='bx bxl-java' ></i>
+                <h3>Java Certification</h3>
+                <h5>-By Skillup</h5>
+                <a href="https://drive.google.com/file/d/1Nz8JriKP7gPObySmhANzQvpjfjpg9Sf-/view?usp=drive_link">Click To See..</a>
+            </div>
+            <!-- Box 3 -->
+            <div class="certifications-box">
+                <i class='bx bx-cloud' ></i>
+                <h3>Google Cloud Fundamentals</h3>
+                <h5>-By Coursera </h5>
+                <a href="https://drive.google.com/file/d/1QaNM8aT7cK9WccRnnnu7zHswAUMPDtx3/view?usp=drive_link">Click To See..</a>
+            </div>
+
+            <div class="certifications-box">
+                <i class='bx bx-certification' ></i>
+                <h3>Advanced Design Patterns</h3>
+                <h5>-By LinkedIn </h5>
+                <a href="https://drive.google.com/file/d/1tKcZGlBpQEqJt7zCe9WvV6MvFkw-Eh9M/view?usp=drive_link">Click To See..</a>
+            </div>
+
+            <div class="certifications-box">
+              <i class='bx bxl-codepen' ></i>
+              <h3>Blockchain Essential</h3>
+              <h5>-By Cognitive Class </h5>
+              <a href="https://drive.google.com/file/d/1aEiEQSLuiDBzglKJIByeilyycPdqThV7/view?usp=drive_link">Click To See..</a>
+          </div>
+
+          <div class="certifications-box">
+            <i class='bx bxs-bank'></i>
+            <h3>Computer System Security</h3>
+            <h5>-By IIT Kanpur </h5>
+            <a href="https://drive.google.com/file/d/1Z29-z0IQIafNfoaKyOVhSgSI4-1POoZM/view?usp=drive_link">Click To See..</a>
+        </div>
+
+        <div class="certifications-box">
+          <i class='bx bxl-javascript'></i>
+          <h3>Responsive web design</h3>
+          <h5>-By Digital Defynd </h5>
+          <a href="https://drive.google.com/file/d/1MBuAkloWcM6dLvtdN3roB5QVS9up8MTl/view?usp=drive_link">Click To See..</a>
+      </div>
+
+    </section>
+
+    <!-- Project -->
+    <section class="project" id="project" data-aos="zoom-in">
+        <div class="heading">
+            <h2>Project & Experiences</h2>
+            <span>My Recent Work</span>
+        </div>
+        <div class="project-content" data-aos="zoom-in">
+            <div class="project-img">
+                <img src="RestApiCRUD.jpeg" alt="">
+                <u><h2>RESTful Web Services</h2></u>
+                <h3>Tech Stack: Java, Springboot, MY SQL</h3>
+
+                <p>• Build a RESTful API for users. Skeleton of how
+                  the backend work.</p>
+                  <p>• Built RESTful API for users using Spring Web
+                  and Spring Boot Devtools.</p>
+                  <p>• Incorporated Spring Data JPA for database
+                  management and H2 Database as the underlying database.</p>
+                  <p>• Implemented CRUD operations for user entities.</p>
+                  
+                    <a href="https://github.com/github0o0o/Restful-API" class="btn" onclick="showMessage()">Github Repo</a>
+                    
+            </div>
+            <div class="project-img" data-aos="zoom-in">
+                <img src="Covid19.png" alt="">
+                <h2>Coronavirus Tracker App</h2>
+                <h3>Tech Stack: Java, Springboot, HTML, Bootstrap</h3>
+                  
+                <p>• Java Spring Boot Application to track reported
+                  data of confirmed infection around the world.</p>
+                  <p>• Used Thymeleaf as a template engine to display the data in a user-friendly manner.</p>
+                  <p>• Utilized Bootstrap, HTML, and CSS for the front-end design.</p>
+                  <p>• Implemented Spring Web and Spring Boot Devtools for web development and debugging.</p>
+                  
+                    <a href="https://github.com/github0o0o/Covid-Tracker"class="btn">Github Repo</a>
+                   
+            </div>
+            <div class="project-img" data-aos="zoom-in">
+                <img src="chat-application.png" alt="">
+                <h2>REAL-Time Chat application</h2>
+                <h3>Tech Stack: Java, Springboot, React JS, Websocket</h3>
+                  
+                  <p>• ReactJS: Used ReactJS as the primary frontend library for the application.</p>
+                  <p>• Websocket: Utilized Websocket, a protocol that enables bidirectional real-time communication over a single TCP connection, to facilitate real-time chat functionality.</p>
+                  <p>• Real-time chat: The core feature of the application was real-time chat, which enabled users to communicate with each other in real-time.</p>
+                  
+                    <a href="https://github.com/github0o0o/Real-Time-Chat-Application-"class="btn">Github Repo</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact -->
+<section class="contact" id="contact" data-aos="fade-left">
+  <div class="heading">
+    <h2>Contact</h2>
+    <span>Connect with me</span>
+  </div>
+  <div class="contact-form">
+    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" onsubmit="return submitForm()">
+      <input type="hidden" name="access_key" value="bd2f5254-f5fc-46a8-b1dd-0c3a882bf000">
+      <input type="text" name="name" id="name" placeholder="Your Name" required>
+      <input type="email" name="email" id="email" placeholder="Your Email" required>
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+      <input type="submit" value="Send" class="contact-button">
+    </form>
+  </div>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+
+  <script>
+    function submitForm() {
+      window.location.href = ""
+      form.reset()
+    }
+  </script>
+</section>
+
+
+
+    <!-- Copyright -->
+   <div class="copyright">
+        <p>Created By <a href="">Kumar Anand</a></p>
+    </div>
+    <!-- Link To JS -->
+    <script src="./js/script.js"></script>
+    <!---OUR AOS-->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+       AOS.init({
+        offset:200,
+        duration:1000
+      });
+      </script>
+</body>
+</html>
